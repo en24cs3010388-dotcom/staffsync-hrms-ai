@@ -1,0 +1,42 @@
+{
+  "name": "staffsync-hrms",
+  "version": "1.0.0",
+  "description": "StaffSync - Human Resource Management System (MERN Stack)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "tsx server/index.ts",
+    "client": "vite --port=3000",
+    "seed": "tsx server/config/seed.ts",
+    "build": "vite build",
+    "start": "tsx server/index.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.546.0",
+    "mongoose": "^9.0.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "react-router-dom": "^7.1.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "mongodb-memory-server": "^10.1.3",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}

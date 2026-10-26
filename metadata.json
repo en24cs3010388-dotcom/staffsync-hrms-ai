@@ -1,0 +1,5 @@
+  "name": "StaffSync - Human Resource Management System",
+  "description": "Full-stack MERN Human Resource Management System with Employee, Attendance, Leave, Announcements, and Training management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
