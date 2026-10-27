@@ -75,8 +75,8 @@ export const connectDB = async (): Promise<string> => {
     return 'Already connected to MongoDB';
   }
 
-  const TARGET_ATLAS_URI = 'mongodb+srv://en24cs3010388_db_user:UP93AN2355%40indore@dushyantsays.qgnkph3.mongodb.net/staffsync?retryWrites=true&w=majority';
-  const rawUri = process.env.MONGODB_URI || TARGET_ATLAS_URI;
+
+  const rawUri = process.env.MONGODB_URI;
 
   if (rawUri && rawUri.trim() !== '') {
     const sanitizedUri = sanitizeMongoUri(rawUri);
